@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+   
+}
+body {
+
+    font-family : 'Rubik', sans-serif;
+    #navbar {
+        z-index: 100;
+        background-color: white;
+    }
+    .sticky {
+        position: sticky;
+        top: 0;
+       
+    }
+}
+header {
+    padding: 120px 0 60px; 
+    
+    .header-text {
+        padding-top : 140px;
+    }
+
+    a {
+        background-color: #6159E6;
+        color: white;
+
+        &:hover {
+            background-color: #7A73EE;
+            color: white;
+        }
+    }
+    img {
+        
+    }
+}
+main {
+    .about {
+        min-height: 419px;
+        padding-top: 36px ;
+       
+
+        h2  {
+            font-size: 34px;
+
+            
+        }
+        h2:after{
+            content:'';
+            display:inline-block;
+            width:100%; height:100%;
+            margin-top: 5px;
+            margin-right:-80%;
+            border-bottom:1px solid #000;
+          }
+        p   {
+            margin-top: 60px;
+            font-size: 25px;
+        }
+    }
+
+    .package {
+        background-color: #F0F0FF;
+        min-height: 560px;
+
+        .card {
+            border: 1px solid #707070;
+        }
+        .card-package {
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px;
+            padding-bottom: 2px;
+            margin-bottom: -80px;
+            min-height: 520px;
+            max-width: 356px;    
+        }
+        h2 {
+            font-size : 30px;
+        }
+        p {
+            font-size: 23px;        
+        }
+        h2:after{
+            content:'';
+            display:inline-block;
+            width:100%; height:100%;
+            margin-top: 5px;
+            margin-right:-80%;
+            border-bottom:1px solid #000;
+          }
+    }
+
+    .benefit {
+        min-height: 618px;
+        margin-top: 150px;
+        background-image: url(../images/BackBenefit.jpg);
+        background-position-y: -160px ;
+        background-size: cover;
+        .card {
+            border: 1px solid #707070;
+        }
+        h2 {
+            font-size: 30px;
+        }
+
+        h2:after{
+            content:'';
+            display:inline-block;
+            width:100%; height:100%;
+            margin-top: 5px;
+            margin-right:-60%;
+            border-bottom:1px solid #000;
+          }
+
+        .card-benefit {
+            margin-top: 63px;
+            height: 130px;
+            width: 540px;
+            padding-top: 5px;
+            padding-bottom: 0px;
+            width: 542px;
+            border-radius: 10px;        
+            img {
+                padding-left: 15px ;
+            }
+          
+            p {
+                font-size:28px ;
+                padding-top: 30px;
+
+            }
+        }
+    }
+    /*width: 542px;
+    height: 131px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #707070;*/
+
+    .faq {
+        
+        h2 {
+            font-size: 30px;
+            
+        }
+        
+        .faq-content {
+            padding-top: 75px;
+        }
+        .card {
+            border: 1px solid #707070;
+        }
+        .card-faq {
+            height: 80px;
+            margin-top: 20px;
+
+            p {
+                padding-top: 20px;
+                padding-left: 30px;
+                font-size: 15px;
+            }
+            
+        }
+        .answer1 {
+            margin-top: 15px;
+            display: none;
+        }
+        .answer2 {
+            margin-top: 15px;
+            display: none;
+        }
+        .answer3 {
+            margin-top: 15px;
+            display: none;
+        }
+        .answer4 {
+            margin-top: 15px;
+            display: none;
+        }
+        .answer5 {
+            margin-top: 15px;
+            display: none;
+        }
+        .answer6 {
+            margin-top: 15px;
+            display: none;
+        }
+    }
+}
+footer {
+    margin-top: 100px;
+    min-height: 320px;
+    border-top: solid 1px #707070;
+    border-bottom:  solid 1px #707070;
+
+
+    .tryoutkuy-content {
+        .flex-column {
+            
+            .footer-title{
+                font-family: Rubik;
+                font-weight: 900;
+                font-size: 25px;
+                text-align: left;
+                color: #000;
+    
+            }
+            .item {
+                width: 180px;
+                font-family: Rubik;
+                border-bottom: 1px solid #707070;  
+                text-align: left;
+                color: #000;
+                padding-right: 3px;
+
+                a {
+                    font-weight: 500;
+                    font-size: 15px;
+                    color: #000;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: #595252;
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .follow-us {
+
+        .footer-title {
+            font-family: Rubik;
+            font-weight: 900;
+            font-size: 25px;
+            text-align: left;
+            color: #000;
+        }
+
+        a {
+            color: black;
+
+            &:hover {
+                color: #595252;
+            }
+        }
+    }
+
+    .contact-us {
+        .footer-title {
+            font-family: Rubik;
+            font-weight: 900;
+            font-size: 25px;
+            text-align: left;
+            color: #000;
+        }
+        
+        p {
+            font-size: 15px;
+        }
+
+        .no-telp {
+            margin-top: -13px;
+        }
+    }
+
+    .footer-2 {
+        border-top: solid 1px #707070;
+    }
+}

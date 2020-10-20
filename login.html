@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Tryoutkuy</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="Styles/login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--Navbar-->
+        <div class="container sticky" id="navbar">
+            <nav class=" row navbar navbar-expand-lg navbar-light">
+                <a href="#" class="navbar-brand">
+                    <h3>TRYOUTKUY</h3>
+                </a>
+                <!-- <button class="navbar-toggler navbar-toggler-right" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navb" > 
+                
+               <span class="navbar-toggler-icon"></span> 
+                </button> -->
+                
+                <div class="collapse navbar-collapse" id="navb">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active px-1">
+                            <p>Not a member? <a href="register.html">Sign up now</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <!--Login Form-->
+        <div class="row justify-content-center">
+            <div class="col-lg-4 img-header">
+                <img src="images/undraw_book_lover_mkck.png" alt="">
+            </div>
+            <div class="col-lg-4 login-element">
+                <h2>Sign in to <br>TRYOUTKUY</h2>
+                <form>
+                    <label class="lbl-username" for="username">Username</label>
+                        <input class="username" id="username" type="text" name="username" autocomplete="off" required>
+                    <label class="lbl-password" for="password">Password</label>
+                        <input class="password" id="password" type="password" name="pasword" autocomplete="off" required>
+                        <input class="login-btn" type="submit" name="login" value="Sign in">
+                </form>
+                <p class="sign-up-now">Not a member?<a href="register.html">Sign up now</a></p>
+            </div>
+        </div>
+       
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+        <script src="Script/script.js"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

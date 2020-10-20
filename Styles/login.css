@@ -1,0 +1,98 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (max-width: 790px) {
+  .img-header {
+    display: none;
+  }
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+body #navbar {
+  z-index: 100;
+  background-color: white;
+}
+
+body .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+body .img-header {
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+body .img-header img {
+  width: 550px;
+}
+
+body .login-element {
+  border-radius: 50px;
+  margin-top: 100px;
+  height: 313px;
+  margin-left: 90px;
+}
+
+body .login-element .sign-up-now {
+  display: inline-block;
+}
+
+body .login-element h2 {
+  font-size: 25px;
+}
+
+body .login-element .lbl-username {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 450;
+}
+
+body .login-element .lbl-password {
+  font-weight: 450;
+  font-family: 'Rubik', sans-serif;
+}
+
+body .login-element .username {
+  height: 40px;
+  width: 436px;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  background-color: #F6F6F6;
+  width: 400px;
+  display: block;
+  margin-top: 0px;
+}
+
+body .login-element .password {
+  height: 40px;
+  width: 436px;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  background-color: #F6F6F6;
+  width: 400px;
+  display: block;
+  margin-top: 0px;
+}
+
+body .login-element .login-btn {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 20;
+  margin-top: 20px;
+  width: 160px;
+  height: 40px;
+  border-radius: 8px;
+  background: #7a73ee;
+  border: 1px solid #707070;
+}
+
+body .login-element .login-btn:hover {
+  background: #908AF4;
+}
+/*# sourceMappingURL=login.css.map */
